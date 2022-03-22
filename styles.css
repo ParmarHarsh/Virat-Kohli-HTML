@@ -1,0 +1,197 @@
+body{
+  background-image: url('background.jpg');
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.title
+{
+  background-image: -webkit-linear-gradient(left, yellow, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-align:center;
+  color: transparent;
+  font-size: 60px;
+  font-family: Anton;
+}
+
+.heading
+{
+  text-align: center;
+}
+
+.header
+{
+  padding: 10px 16px;
+  background: black;
+  color: #f1f1f1;
+}
+
+.content
+{
+  padding: 16px;
+}
+
+.sticky
+{
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content
+{
+  padding-top: 70px;
+}
+
+.Home
+{
+  width: 500px;
+  height: 600px;
+}
+
+.HomeTxt1
+{
+  color: yellow;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.career
+{
+  margin-top: 10px;
+  margin-bottom:20px;
+  text-align: center;
+  color: black;
+}
+
+.round2
+{
+  margin-left: auto;
+  margin-right: auto;
+  color: yellow;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 17%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.table
+{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 80%;
+  border: 5px solid black;
+  border-spacing: 5px;
+  border-collapse: collapse;
+}
+
+.t1
+{
+  background-color: transparent;
+  text-align:center;
+  border: 1px solid black;
+}
+
+.t2
+{
+  background-color: transparent;
+  text-align:center;
+  border: 1px solid black;
+}
+
+.HomeTxt2
+{
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.CI
+{
+  background-color: red;
+  border: none;
+  color: yellow;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 108px;
+}
+
+.Career
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.PersonalInformation
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+.PItable
+{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 25%;
+  border: 5px solid black;
+  border-spacing: 5px;
+  border-collapse: collapse;
+}
+
+.right
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.HomeTxt3
+{
+  color: black;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.SocialMedia
+{
+  background-color: transparent;
+  border: none;
+  color: yellow;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 335px;
+}
